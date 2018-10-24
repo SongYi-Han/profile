@@ -1,0 +1,131 @@
+body {
+  color: #7d7d7d;
+  background: #73DDDD;
+  font-family: 'Niramit', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Niramit', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 30px;
+}
+
+h2 {
+  color: #ECAC16;
+  font-size: 25px;
+}
+
+h4 {
+  color: #696D7D;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+
+a {
+  color: #833BEF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DDB8EF;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+ul > li {
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+}
+
+p{
+  color: #6D4F1B;
+  display:inline;
+}
+
+table, th, td {
+   border: 20px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.impact {
+  background-color: white;
+}
+
+.animation{
+
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+
+.button {
+  background: #9CEC5B;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background: rgb(226, 44, 44);
+  color: white;
+}
+
+.card {
+  background: #FFF275;
+  width: 600px;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+  border-radius: 5%;
+}
